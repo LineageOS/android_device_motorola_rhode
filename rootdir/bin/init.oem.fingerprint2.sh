@@ -27,10 +27,10 @@ GKI_PATH=$(getprop $PROP_GKI_PATH)
 # hal_list: the array contains the hal service name.
 #
 # note: all arrays should have the same size.
-vendor_list=('egis' 'chipone')
-kernel_so_list=("/vendor/lib/modules/$GKI_PATH/rbs_fps_mmi.ko" "/vendor/lib/modules/$GKI_PATH/fpsensor_spi_tee.ko")
-kernel_so_name_list=("rbs_fps_mmi.ko" "fpsensor_spi_tee.ko")
-hal_list=('ets_hal' 'chipone_fp_hal')
+vendor_list=('egis' 'focal')
+kernel_so_list=("/vendor/lib/modules/$GKI_PATH/rbs_fps_mmi.ko" "/vendor/lib/modules/$GKI_PATH/focal_fps_mmi.ko")
+kernel_so_name_list=("rbs_fps_mmi.ko" "focal_fps_mmi.ko")
+hal_list=('ets_hal' 'focal_hal')
 last_vendor_index=`expr ${#vendor_list[@]} - 1`
 vendor_list_size=${#vendor_list[@]}
 
