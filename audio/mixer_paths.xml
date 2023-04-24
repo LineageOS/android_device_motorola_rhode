@@ -450,7 +450,7 @@
     <ctl name="aw_dev_0_switch" value="Enable" />
     <ctl name="aw_dev_0_prof" value="Music" />
     <ctl name="aw_dev_1_switch" value="Enable" />
-    <ctl name="aw_dev_1_prof" value="Music" />
+    <ctl name="aw_dev_1_prof" value="Receiver" />
     <ctl name="aw882xx_rx_switch" value="Disable" />
     <ctl name="aw882xx_tx_switch" value="Disable" />
     <ctl name="PRI_MI2S_RX_VI_FB_MUX" value="ZERO" />
@@ -556,7 +556,7 @@
     <path name="deep-buffer-playback speaker">
         <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia1" value="1" />
         <ctl name="aw882xx_algo_music_deepbuffer_switch" value="On" />
-        <ctl name="aw882xx_spin_relase_time" value="100" />
+	<ctl name="aw882xx_spin_relase_time" value="100" />
     </path>
 
     <path name="deep-buffer-playback handset">
@@ -923,7 +923,7 @@
     <path name="compress-offload-playback speaker">
         <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia4" value="1" />
         <ctl name="aw882xx_algo_music_deepbuffer_switch" value="On" />
-        <ctl name="aw882xx_spin_relase_time" value="100" />
+	<ctl name="aw882xx_spin_relase_time" value="100" />
     </path>
 
     <path name="compress-offload-playback handset">
@@ -1059,7 +1059,7 @@
     <path name="compress-offload-playback2 speaker">
         <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia7" value="1" />
         <ctl name="aw882xx_algo_music_deepbuffer_switch" value="On" />
-        <ctl name="aw882xx_spin_relase_time" value="100" />
+	<ctl name="aw882xx_spin_relase_time" value="100" />
     </path>
 
     <path name="compress-offload-playback2 handset">
@@ -2406,7 +2406,7 @@
         <ctl name="PRI_MI2S_RX_Voice Mixer VoiceMMode1" value="1" />
         <ctl name="VoiceMMode1_Tx Mixer TX_CDC_DMA_TX_3_MMode1" value="1" />
         <ctl name="aw882xx_algo_voice_switch" value="On" />
-        <ctl name="aw882xx_spin_relase_time" value="100" />
+	<ctl name="aw882xx_spin_relase_time" value="100" />
     </path>
 
     <path name="voicemmode1-call handset">
@@ -2472,7 +2472,7 @@
         <ctl name="PRI_MI2S_RX_Voice Mixer VoiceMMode2" value="1" />
         <ctl name="VoiceMMode2_Tx Mixer TX_CDC_DMA_TX_3_MMode2" value="1" />
         <ctl name="aw882xx_algo_voice_switch" value="On" />
-        <ctl name="aw882xx_spin_relase_time" value="100" />
+	<ctl name="aw882xx_spin_relase_time" value="100" />
     </path>
 
     <path name="voicemmode2-call handset">
@@ -2553,7 +2553,7 @@
     <path name="audio-playback-voip speaker">
         <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia10" value="1" />
         <ctl name="aw882xx_algo_voip_switch" value="On" />
-        <ctl name="aw882xx_spin_relase_time" value="100" />
+	<ctl name="aw882xx_spin_relase_time" value="100" />
     </path>
 
     <path name="audio-playback-voip handset">
@@ -2812,7 +2812,7 @@
     <path name="mmap-playback speaker">
         <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia16" value="1" />
         <ctl name="aw882xx_algo_music_deepbuffer_switch" value="On" />
-        <ctl name="aw882xx_spin_relase_time" value="100" />
+	<ctl name="aw882xx_spin_relase_time" value="100" />
     </path>
 
     <path name="mmap-playback handset">
@@ -3102,6 +3102,8 @@
     </path>
 
     <path name="speaker">
+        <ctl name="aw_dev_1_prof" value="Music" />
+        <ctl name="aw_dev_0_switch" value="Enable" />
     </path>
 
     <path name="speaker-left">
@@ -3109,11 +3111,11 @@
     </path>
 
     <path name="speaker-right">
-        <path name="speaker" />
+        <ctl name="aw_dev_1_switch" value="Disable" />
     </path>
 
     <path name="speaker-mono">
-        <path name="speaker" />
+        <path name="speaker-right" />
     </path>
 
     <path name="speaker-mono-2">
@@ -3264,7 +3266,8 @@
     </path>
 
     <path name="voice-speaker">
-        <path name="speaker" />
+        <ctl name="aw_dev_1_switch" value="Disable" />
+        <ctl name="aw_dev_0_switch" value="Enable" />
     </path>
 
     <path name="voice-speaker-stereo">
