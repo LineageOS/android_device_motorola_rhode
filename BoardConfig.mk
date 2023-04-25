@@ -25,5 +25,8 @@ TARGET_KERNEL_CONFIG += vendor/ext_config/rhode-default.config
 # Recovery
 TARGET_RECOVERY_UI_MARGIN_HEIGHT := 100
 
+# Security patch level
+VENDOR_SECURITY_PATCH := 2023-03-01
+
 # Inherit from the proprietary version
 include vendor/motorola/rhode/BoardConfigVendor.mk
