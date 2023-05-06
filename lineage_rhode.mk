@@ -22,8 +22,8 @@ PRODUCT_MODEL := moto g52
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
-BUILD_FINGERPRINT := "motorola/rhode_g/rhode:12/S1SRS32.38-132-8/49844-b8b52:user/release-keys"
+BUILD_FINGERPRINT := "motorola/rhode_g/rhode:12/S1SRS32.38-132-8/b8b52-17f675:user/release-keys"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=rhode_g \
-    PRIVATE_BUILD_DESC="rhode_g-user 12 S1SRS32.38-132-8 49844-b8b52 release-keys"
+    PRIVATE_BUILD_DESC="rhode_g-user 12 S1SRS32.38-132-8 b8b52-17f675 release-keys"
