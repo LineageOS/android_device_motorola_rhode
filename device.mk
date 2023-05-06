@@ -29,5 +29,8 @@ PRODUCT_PACKAGES += \
     init.oem.fingerprint2.sh \
     init.mmi.overlay.rc
 
+# Shipping API level
+PRODUCT_SHIPPING_API_LEVEL := 31
+
 # Get non-open-source specific aspects
 $(call inherit-product-if-exists, vendor/motorola/rhode/rhode-vendor.mk)
