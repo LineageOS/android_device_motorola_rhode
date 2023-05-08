@@ -10,3 +10,9 @@ cw2217b_fg_mmi.ko
 adapter_class.ko
 tcpc_sgm7220.ko
 rt_pd_manager.ko
+mmi_relay.ko
+sensors_class.ko
+touchscreen_mmi.ko
+goodix_brl_mmi.ko
+focaltech_v3.ko
+synaptics_v2_mmi.ko
