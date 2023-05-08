@@ -154,10 +154,6 @@ vendor/etc/camera/arcsoft_calibration_u_dc.bin
 vendor/etc/camera/dual_golden_wide.bin
 vendor/etc/camera/vidhance_calibration
 
-# Camera (Permissions)
-product/etc/permissions/com.motorola.camera3.content.ai.xml
-product/etc/permissions/com.motorola.camera3.xml
-
 # Display (Calibration Data)
 vendor/etc/qdcm_calib_data_mipi_mot_cmd_csot_1080p_dsc_655.xml
 vendor/etc/qdcm_calib_data_mipi_mot_cmd_csot_vt_1080p_dsc_655.xml
