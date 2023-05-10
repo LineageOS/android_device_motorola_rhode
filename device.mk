@@ -46,6 +46,8 @@ PRODUCT_PACKAGES += \
     init.mmi.overlay.rc
 
 # Shipping API level
+BOARD_API_LEVEL := 30
+BOARD_SHIPPING_API_LEVEL := 30
 PRODUCT_SHIPPING_API_LEVEL := 31
 
 # Get non-open-source specific aspects
