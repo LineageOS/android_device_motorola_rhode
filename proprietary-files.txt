@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from rhode_g S1SRS32.38-132-8
+# All unpinned blobs below are extracted from rhode_g S1SRS32.38-132-11
 
 # ACDB
 vendor/etc/acdbdata/Bluetooth_cal.acdb
