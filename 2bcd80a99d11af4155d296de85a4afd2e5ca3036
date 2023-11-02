@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "094a889a_620087d8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14010
+      },
+      "writtenOn": "2023-11-02T14:35:43Z",
+      "side": 1,
+      "message": "We are currently using the generic one that is installed to /system.\nThe stock one is much different and fixes reading \u0026 writing Mifare Classic tags, and possibly other usecases (I\u0027m awaiting confirmation from impacted users).",
+      "revId": "2bcd80a99d11af4155d296de85a4afd2e5ca3036",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
