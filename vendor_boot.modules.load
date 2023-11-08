@@ -16,3 +16,4 @@ touchscreen_mmi.ko
 goodix_brl_mmi.ko
 focaltech_v3.ko
 synaptics_v2_mmi.ko
+exfat.ko
