@@ -15,4 +15,4 @@ ro.surface_flinger.set_touch_timer_ms=2000
 ro.surface_flinger.use_smart_90_for_video=true
 
 # Radio
-ro.vendor.radio.imei.sv=12
+ro.vendor.radio.imei.sv=21
