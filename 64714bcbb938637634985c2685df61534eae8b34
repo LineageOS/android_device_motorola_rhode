@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "51b3f427_a31e861f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14010
+      },
+      "writtenOn": "2024-03-02T20:47:01Z",
+      "side": 1,
+      "message": "We need to patch the vendor rc file we are keeping in order to replace the .sec suffix with .samsung.\nAlso, I guess we need to override the service declared by the rc file in hardware/samsung/nfc, to prevent that script to start the service unconditionally, right? Something like this https://review.lineageos.org/c/LineageOS/android_device_motorola_sm6225-common/+/384157/2/extract-files.sh\nI am asking because I\u0027ve never used the override keyword and therefore I\u0027m unsure if this is its purpose.",
+      "revId": "64714bcbb938637634985c2685df61534eae8b34",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
