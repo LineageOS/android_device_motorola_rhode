@@ -16,6 +16,23 @@
       "message": "I can\u0027t find any difference before and after this patch",
       "revId": "a80e5224abb664e9401202dc2f999be3d5bc2543",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e5497fbc_71887435",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14010
+      },
+      "writtenOn": "2024-03-06T17:27:12Z",
+      "side": 1,
+      "message": "Very strange. Could you please retry? The differences are very noticeable in low-to-medium illumination environments. Lineage as of now keeps the brightness way too low in those environments. With this patch, it gets much better.",
+      "revId": "a80e5224abb664e9401202dc2f999be3d5bc2543",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
