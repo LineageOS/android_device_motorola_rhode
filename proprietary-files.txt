@@ -13,7 +13,7 @@ vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.00.pmd
 vendor/etc/acdbdata/nn_ns_models/fai__2.2.0_0.1__3.0.0_0.0__eai_1.00.pmd
 vendor/etc/acdbdata/nn_vad_models/fai_3.0.0_0.0_eai_1.00.pmd
 
-# Audio Firmware
+# Audio firmware
 vendor/firmware/aw882xx_afe_params.bin
 vendor/firmware/aw882xx_mono.bin
 vendor/firmware/aw882xx_pid_1852_acf.bin
@@ -22,7 +22,6 @@ vendor/firmware/aw882xx_spk_reg.bin
 vendor/firmware/aw_skt.bin
 
 # Camera
-vendor/lib/libcamxexternalformatutils.so
 vendor/lib64/camera/com.mot.eeprom.mot_gt24p128e_s5kjn1_eeprom.so
 vendor/lib64/camera/com.mot.eeprom.mot_gt24p64e_ov16a1q_eeprom.so
 vendor/lib64/camera/com.mot.eeprom.mot_rhode_gc02m1_otp.so
@@ -150,7 +149,7 @@ vendor/lib64/libvidhance_fbc.so
 vendor/lib64/libvidhance_horizon_correction.so
 vendor/lib64/libvidhance_stabilizer.so
 
-# Camera-configs
+# Camera configs
 vendor/etc/camera/aec_golden_wide.bin
 vendor/etc/camera/arcsoft_calibration_u_dc.bin
 vendor/etc/camera/dual_golden_wide.bin
@@ -179,11 +178,8 @@ vendor/usr/idc/uinput-focal.idc
 vendor/usr/keylayout/uinput-focal.kl
 vendor/usr/keylayout/uinput-egis.kl
 
-# Graphics firmware
+# Graphics (Adreno firmware)
 vendor/firmware/a630_sqe.fw
-vendor/firmware/a650_gmu.bin
-vendor/firmware/a650_sqe.fw
-vendor/firmware/a702_sqe.fw
 
 # NFC (Samsung)
 vendor/etc/init/android.hardware.nfc@1.2-service.sec.rc
@@ -198,7 +194,7 @@ vendor/firmware/sec_s3nrn4v_firmware.bin
 # SAR firmware
 vendor/firmware/aw9610x_0.bin
 
-# Sensor-configs
+# Sensors configs
 vendor/etc/sensors/config/bengal_ak991x_0.json
 vendor/etc/sensors/config/bengal_bmi3x0_0.json
 vendor/etc/sensors/config/bengal_default_sensors.json
