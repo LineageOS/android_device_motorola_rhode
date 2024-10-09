@@ -1,4 +1,4 @@
-# All firmware images below are extracted from rhode_g T2SRS33.72-22-4-7
+# All firmware images below are extracted from rhode_g T2SRS33.72-22-4-8
 
 abl.elf:abl.img;AB
 BTFM.bin:bluetooth.img;AB

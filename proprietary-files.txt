@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from rhode_g T2SRS33.72-22-4-7
+# All unpinned blobs below are extracted from rhode_g T2SRS33.72-22-4-8
 
 # ACDB
 vendor/etc/acdbdata/Bluetooth_cal.acdb
