@@ -37,6 +37,7 @@ PRODUCT_PACKAGES += \
 # Overlay
 PRODUCT_PACKAGES += \
     FrameworksResDevice \
+    SettingsResDevice \
     SystemUIResDevice \
     WifiResDevice
 
