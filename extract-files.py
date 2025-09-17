@@ -31,9 +31,6 @@ lib_fixups: lib_fixups_user_type = {
 }
 
 blob_fixups: blob_fixups_user_type = {
-    'vendor/etc/init/android.hardware.nfc@1.2-service.sec.rc': blob_fixup()
-        .regex_replace('sec', 'samsung')
-        .regex_replace('class hal', 'override\n    class hal'),
     (
         'vendor/lib64/camera/components/com.qti.node.gpu.so',
         'vendor/lib64/com.qti.feature2.gs.so',
