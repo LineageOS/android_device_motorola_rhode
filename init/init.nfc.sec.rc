@@ -1,0 +1,9 @@
+on boot && property:ro.vendor.hw.nfc=samsung
+    start vendor.sec_nfc_hal_service
+
+service vendor.sec_nfc_hal_service /vendor/bin/hw/android.hardware.nfc-service.sec
+    override
+    class hal
+    user nfc
+    group nfc
+    disabled
