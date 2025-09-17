@@ -16,6 +16,13 @@ prebuilt_etc {
     vendor: true,
 }
 
+prebuilt_etc {
+    name: "init.nfc.samsung.rc",
+    src: "init.nfc.samsung.rc",
+    sub_dir: "init",
+    vendor: true,
+}
+
 sh_binary {
     name: "init.oem.fingerprint2.sh",
     src: "init.oem.fingerprint2.sh",
