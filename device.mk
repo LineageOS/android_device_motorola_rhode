@@ -27,12 +27,13 @@ TARGET_SCREEN_WIDTH := 1080
 # Init
 PRODUCT_PACKAGES += \
     fstab.qcom \
-    init.oem.fingerprint2.sh \
-    init.mmi.overlay.rc
+    init.mmi.overlay.rc \
+    init.nfc.sec.rc \
+    init.oem.fingerprint2.sh
 
 # NFC
 PRODUCT_PACKAGES += \
-    android.hardware.nfc@1.2-service.samsung
+    android.hardware.nfc-service.sec
 
 # Overlay
 PRODUCT_PACKAGES += \
