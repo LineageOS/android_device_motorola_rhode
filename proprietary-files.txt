@@ -107,6 +107,7 @@ vendor/lib64/com.qti.feature2.stub.so
 vendor/lib64/com.qti.feature2.swmf.so
 vendor/lib64/hw/camera.qcom.so
 vendor/lib64/hw/com.qti.chi.override.so
+vendor/lib64/libaidenoiser.so
 vendor/lib64/libarcsoft_distortion_correction.so
 vendor/lib64/libarcsoft_low_light_shot.so
 vendor/lib64/libarcsoft_portrait_distortion_correction.so
@@ -141,7 +142,9 @@ vendor/lib64/libmpbase.so
 vendor/lib64/libofflinelog.so
 vendor/lib64/libopencv.so
 vendor/lib64/libopestriping.so
+vendor/lib64/libremosaiclib.so
 vendor/lib64/libremosaic_wrapper.so
+vendor/lib64/librmsclib1.so
 vendor/lib64/libswregistrationalgo.so
 vendor/lib64/libtfestriping.so
 vendor/lib64/libvidhance.so
