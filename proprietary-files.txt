@@ -184,8 +184,8 @@ vendor/lib64/vendor.egistec.hardware.fingerprint@4.0.so
 vendor/lib64/vendor.focaltech.fingerprint@1.0.so
 vendor/usr/idc/uinput-egis.idc
 vendor/usr/idc/uinput-focal.idc
-vendor/usr/keylayout/uinput-focal.kl
 vendor/usr/keylayout/uinput-egis.kl
+vendor/usr/keylayout/uinput-focal.kl
 
 # Graphics (Adreno firmware)
 vendor/firmware/a630_sqe.fw
